@@ -8,5 +8,8 @@
     "type": "git",
     "url": "git://github.com/silentmatt/js-expression-eval.git"
   },
-  "main": "parser.js"
+  "main": "parser.js",
+  "dependencies": {
+    "test": "~0.4.3"
+  }
 }

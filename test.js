@@ -1,5 +1,5 @@
 var assert = require("assert");
-var {Parser} = require("./parser");
+var Parser = require("./parser").Parser;
 
 exports.testParser = {
     testEvaluate: function() {
@@ -58,6 +58,8 @@ exports.testParser = {
 };
 
 // start the test runner if we're called directly from command line
-if (require.main == module.id) {
+if (require.main == module.id) { // Ringo?
     system.exit(require('test').run(exports));
+} else if (require.main == module) { // Node
+    require('test').run(exports);
 }
