@@ -2,14 +2,14 @@
   "author": "Matthew Crumley <email@matthewcrumley.com> (http://silentmatt.com/)",
   "name": "js-expression-eval",
   "description": "Mathematical expression evaluator in JavaScript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://silentmatt.com/javascript-expression-evaluator/",
   "repository": {
     "type": "git",
     "url": "git://github.com/silentmatt/js-expression-eval.git"
   },
   "main": "parser.js",
-  "dependencies": {
-    "test": "~0.4.3"
+  "devDpendencies": {
+    "test": "~0.6"
   }
 }
